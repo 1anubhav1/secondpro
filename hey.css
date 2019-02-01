@@ -33,7 +33,7 @@ body{
 }
 
 .carousel-caption h1{
-    font-size: 500%;
+    font-size: 400%;
     text-transform: uppercase;
     text-shadow: 1px 1px 15px #000;
 }
@@ -71,6 +71,101 @@ body{
     padding-bottom: 2rem;    
 }
  .welcome{
-     padding: 2rem;
-     
- }
+     padding-top: 2rem;
+}
+
+.welcome hr{
+    
+        border-top: 2px solid black;
+        width: 95%;
+        margin-top: .3rem;
+
+        margin-bottom: 2rem;
+      }
+
+      .fa-code{
+          color: #e54d26;
+      }
+
+      .fa-bold{
+          color: purple;
+      }
+
+      .fa-css3{
+          color: blue;
+      }
+
+      .fa-code, .fa-bold, .fa-css3{
+          font-size: 4em;
+          margin: 1rem;
+      }
+
+      .social a{
+          font-size: 5em;
+          padding: 3rem;
+      }
+
+      .fa-facebook{
+          color: rgb(71, 71, 141)
+      }
+
+      .fa-twitter{
+          color: blue;
+      }
+
+      .fa-google-plus-g{
+          color: rgb(179, 41, 41);
+      }
+      .fa-instagram{
+          color: rgb(194, 132, 114);
+      }
+
+      .fa-youtube{
+          color: red;
+      }
+
+
+      .fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover{
+          transition: 1s ease;
+          color: rgb(243, 202, 202);
+          
+      }
+      
+      footer{
+          background-color: #3f3f3f;
+          color: #d5d5d5;
+          padding-top: 2rem;
+      }
+
+      footer hr{
+        border-top: 2px solid rgb(247, 239, 239);
+        width: 95%;
+        
+      }
+
+
+.my-4{
+    border-top: 2px solid black;
+        width: 95%;
+        margin-top: .3rem;
+
+        margin-bottom: 2rem;
+}
+
+.container-fluid .btn-primary{
+    background: purple;
+    border: 1px solid  black;
+}
+
+.container-fluid .btn-primary:hover{
+
+    background-color: black;
+    border: none;
+    text-shadow: 1px 1px 15px red; 
+}
+
+.card .btn-outline-secondary:hover{
+    background-color: rgb(197, 162, 162);
+    transition: 1s ease;
+    text-shadow: 1px 1px 15px red; 
+}
